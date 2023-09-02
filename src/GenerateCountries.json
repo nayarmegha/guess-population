@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Los Angeles",
+    "population": 3971883
+  },
+  {
+    "name": "New York",
+    "population": 8175133
+  },
+  {
+    "name": "Chicago",
+    "population": 2720546
+  },
+  {
+    "name": "Mexico City",
+    "population": 12294193
+  },
+  {
+    "name": "Austin",
+    "population": 931830
+  },
+  {
+    "name": "Minneapolis",
+    "population": 410939
+  },
+  {
+    "name": "Denver",
+    "population": 682545
+  },
+  {
+    "name": "Boston",
+    "population": 667137
+  },
+  {
+    "name": "Seattle",
+    "population": 684451
+  },
+  {
+    "name": "Portland",
+    "population": 632309
+  }
+]
