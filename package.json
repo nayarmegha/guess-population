@@ -1,6 +1,5 @@
 {
   "name": "template-react-api-student-projectname",
-  "homepage": "https://nayarmegha.github.io/guess-population",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
