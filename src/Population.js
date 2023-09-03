@@ -58,7 +58,7 @@ export default function Population() {
   function getPopulation(whichCity) {
     resetText();
     var city = "";
-    if (whichCity == "a") {
+    if (whichCity === "a") {
       //city a
       city = document.getElementById("city-a-text").value;
     } else {
@@ -74,7 +74,7 @@ export default function Population() {
         fetch(cityUrl, requestOptions)
           .then((response) => response.json())
           .then((cityInfo) => {
-            if (whichCity == "a") {
+            if (whichCity === "a") {
               setCityA({
                 name: cityInfo.name,
                 pop: cityInfo.population,
@@ -93,7 +93,7 @@ export default function Population() {
 
   function isBigger(whichCity) {
     resetText();
-    if (whichCity == "a") {
+    if (whichCity === "a") {
       if (cityA.pop >= cityB.pop) {
         document.getElementById("correct").hidden = false;
         document.getElementById("a-bigger").hidden = false;
@@ -129,16 +129,11 @@ export default function Population() {
     document.getElementById("b-bigger").hidden = true;
   }
 
-  function resetScore() {
-    document.getElementById("total-score").hidden = true;
-  }
-
   function generateAnyCity(whichCity) {
     resetText();
-    var city = "";
     var randomIndex = 0;
     randomIndex = Math.floor(Math.random() * 10);
-    if (whichCity == "a") {
+    if (whichCity === "a") {
       setCityA({
         name: cities[randomIndex].name,
         pop: cities[randomIndex].population,
